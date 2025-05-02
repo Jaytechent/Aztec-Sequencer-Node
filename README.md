@@ -170,7 +170,7 @@ aztec add-l1-validator \
   --staking-asset-handler 0xF739D03e98e23A7B65940848aBA8921fF3bAc4b2 \
   --l1-chain-id 11155111
 ```
-Replace `RPC_URL`, `your-validator-address` & 2x `your-validator-address`, then proceed
+Replace `RPC_URL`, `your-private-key` & 2x `your-validator-address`, then proceed
 
 ---
 
