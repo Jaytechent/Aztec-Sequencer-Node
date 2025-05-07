@@ -63,7 +63,7 @@ bash -i <(curl -s https://install.aztec.network)
 * **Restart your Terminal** now to apply changes.
 * Check if you installed successfully:
 ```bash
-aztec
+aztec --version
 ```
 
 ## 3. Update Aztec to the latest version
