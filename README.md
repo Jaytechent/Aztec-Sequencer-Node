@@ -112,8 +112,8 @@ aztec start --node --archiver --sequencer \
   --network alpha-testnet \
   --l1-rpc-urls RPC_URL  \
   --l1-consensus-host-urls BEACON_URL \
-  --sequencer.validatorPrivateKey 0xYourPrivateKey \
-  --sequencer.coinbase 0xYourAddress \
+  --sequencer.validatorPrivateKey YourPrivateKey \
+  --sequencer.coinbase YourevmAddress \
   --p2p.p2pIp IP
 ```
 Replace the following variables before you Run Node:
