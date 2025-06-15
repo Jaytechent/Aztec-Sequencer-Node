@@ -203,7 +203,7 @@ Transaction hash: xxx066cfd1d3a0ec29adfe3fe4ac0b11fb91bfbe049f268179eb9xxxxx
 ```
 * update the node
 ```bash
-aztec-up alpha-testnet
+aztec-up latest
 ```
 # If you need to delete the node 
 * Stop node with Ctrl+C.
