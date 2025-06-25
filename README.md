@@ -223,6 +223,37 @@ aztec start --node --archiver --sequencer \
   --p2p.p2pIp IP
 ```
 
+# MONITOR AND AUTOMATIC UPDATE SCRIPT OF THE AZTEC NODE
+## To use the **aztec-monitor.sh** file above 
+
+- Login into your vps
+
+create the file by with:
+
+  ```bash
+    nano aztec-monitor.sh
+  ```
+- copy the content of the aztec-monitor.sh in this repo
+- edit the start command and fill it with your details, the urls,private key,ip address. remove "<>" after you fill in your details
+
+
+make it executable with:
+
+```bash
+chmod +x aztec-monitor.sh
+```
+
+start the monitor file with:
+```bash
+nohup ./aztec-monitor.sh > aztec-monitor.log 2>&1 &
+```
+
+check log with :
+```bash
+tail -f aztec-monitor.log
+```
+
+
 This Readme will keep getting update here and on my X https://x.com/HallenjayArt
 
 
