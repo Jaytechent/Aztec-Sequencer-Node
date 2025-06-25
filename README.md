@@ -1,5 +1,5 @@
 # AZTEC-SEQUENCER NODE
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/b7c02b6e-5b1b-4975-859f-3e5ca3b701eb)
 
 Aztec is a L2 protcol on Ethereum that provides privacy and enable private transanction onchain.
 Details Guide on how to  Run `Sequencer Node` on Aztec Network Testnet, Earn `Apprentice` Role on discord and Produce blocks on the network.
@@ -225,7 +225,7 @@ aztec start --node --archiver --sequencer \
 
 # MONITOR AND AUTOMATIC UPDATE SCRIPT OF THE AZTEC NODE
 ## To use the **aztec-monitor.sh** file above 
-
+This file monitor your node on port 8080 (if you use a different port, you can change it), and print Node is UP, if your node is down, it updates the aztec node and restart your node automatically, it continues to watch out for the port and ready to update then restart the node again. It saves you the stress of frequent update.
 - Login into your vps
 
 create the file by with:
@@ -252,6 +252,7 @@ check log with :
 ```bash
 tail -f aztec-monitor.log
 ```
+![Uploading image.png…]()
 
 
 This Readme will keep getting update here and on my X https://x.com/HallenjayArt
