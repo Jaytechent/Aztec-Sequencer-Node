@@ -112,7 +112,7 @@ aztec start --node --archiver --sequencer \
   --network alpha-testnet \
   --l1-rpc-urls RPC_URL  \
   --l1-consensus-host-urls BEACON_URL \
-  --sequencer.validatorPrivateKey YourPrivateKey \
+  --sequencer.validatorPrivateKeys YourPrivateKey \
   --sequencer.coinbase YourevmAddress \
   --p2p.p2pIp IP
 ```
@@ -256,5 +256,6 @@ tail -f aztec-monitor.log
 
 
 This Readme will keep getting update here and on my X https://x.com/HallenjayArt
+
 
 
