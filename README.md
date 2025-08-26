@@ -159,7 +159,7 @@ http://localhost:8080 | jq -r ".result"
 * After submission, you'll get your `Apprentice` Role
 
 ![alt text](image-1.png)
-## 12. Register Validator once your Node is sync to the tip
+## 12. Register Validator once your Node is sync to the tip (YOU CAN NO LONGER REGISTER AS A VALIDATOR EXCEPT BY USING ZKPASSPORT ROUTE)
 ```bash
 aztec add-l1-validator \
   --l1-rpc-urls RPC_URL \
@@ -256,6 +256,7 @@ tail -f aztec-monitor.log
 
 
 This Readme will keep getting update here and on my X https://x.com/HallenjayArt
+
 
 
 
